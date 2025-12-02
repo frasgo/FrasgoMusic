@@ -1,0 +1,177 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Un font pulito simile ad Helvetica */
+    box-sizing: border-box; 
+    background-color: #af99ff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* ==================================== */
+/* 2. STILE BARRA DI NAVIGAZIONE        */
+/* ==================================== */
+.navbar {
+    /* Flexbox per allineamento */
+    display: flex; 
+    justify-content: space-between; /* Spazia gli elementi */
+    align-items: center; /* Allinea verticalmente */
+    
+    /* Aspetto Moderno */
+    background-color: #303030; /* Sfondo scuro e audace */
+    padding: 15px 40px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Ombra definita */
+    position: sticky; /* La barra rimane in cima scorrendo */
+    top: 0; 
+    z-index: 1000; /* Assicura che la barra sia sopra il resto del contenuto */
+}
+
+/* ==================================== */
+/* 3. ELEMENTI DEI LINK                 */
+/* ==================================== */
+/* Stile generico per tutti i link nella barra */
+.navbar a {
+    color: #fff;
+    text-decoration: none; /* Rimuove la sottolineatura di default */
+    text-transform: uppercase; /* Tutto maiuscolo */
+    font-weight: 400; /* Peso del font normale */
+    letter-spacing: 1px; /* Spaziatura tra le lettere */
+    transition: color 0.3s ease; /* Transizione fluida per l'interazione */
+}
+
+/* Stile per i tasti "HOME" e "CHI SONO" */
+.nav-item {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 4px; /* Angoli leggermente arrotondati */
+}
+
+/* Effetto Interattivo (Hover) */
+.nav-item:hover {
+    color: #696969; /* Colore brillante (azzurro ciano) all'hover */
+    /* background-color: rgba(255, 255, 255, 0.1); */ /* Volendo, si può aggiungere un leggero sfondo */
+}
+
+/* ==================================== */
+/* 4. BRAND CENTRALE                    */
+/* ==================================== */
+.navbar-brand {
+    font-size: 24px; /* Dimensione maggiore per il brand */
+    font-weight: 700; /* Grassetto per risalto */
+    color: #696969; /* Colore d'accento per il nome */
+    letter-spacing: 2px;
+}
+
+/* Effetto Hover per il brand (se necessario) */
+.navbar-brand:hover {
+    opacity: 0.8;
+}
+
+/* ==================================== */
+/* 5. ALLINEAMENTO FINALE               */
+/* ==================================== */
+/* Assicura che gli elementi a destra e sinistra siano allineati */
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+    min-width: 100px; /* Assicura che lo spazio centrale sia dominante */
+}
+
+/* Contenuto principale per dimostrazione */
+
+.descrizione{
+
+    margin-top: 100px;
+
+margin-left: 100px;
+margin-right: 100px;
+    width: 1500px auto;
+    border-radius: 25px;
+    background-color: rgba(66, 66, 66, 0.5);
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 2000;
+
+}
+body{
+
+
+    background-image: url('simg.jpg');
+    
+    /* 2. NON ripetere l'immagine per coprire tutto lo schermo */
+    background-repeat: repeat-x;
+    
+    /* 3. Fissa l'immagine in modo che non scorra con il contenuto */
+    background-attachment: fixed;
+    
+    /* 4. Scala l'immagine per coprire l'intera area, mantenendo le proporzioni */
+    background-size: cover;
+    
+    /* 5. Posiziona l'immagine al centro */
+    background-position: center center;
+
+
+}
+.Frasgostudio2{
+
+margin-top: 100px;
+
+margin-left: 100px;
+margin-right: 100px;
+    width: 1500px auto;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 200px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 2000;
+
+
+
+}
+.descri{
+
+    margin-top: 50px;
+
+margin-left: 100px;
+margin-right: 100px;
+    width: 1500px auto;
+    border-radius: 100px;
+    background-color: rgba(66, 66, 66, 0.5);
+    text-align: center;
+    padding: 20px 200px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 2000;
+
+}
+.Frasgostudio{
+
+margin-top: 500px;
+
+margin-left: 100px;
+margin-right: 100px;
+    width: 1500px auto;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 200px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 2000;
+}
+.content {
+    display: flex;
+    height: 0px;
+  color: white;
+    box-sizing: content-box;
+    font-size: 30px;
+    padding: 150px 100px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 4px rgba(255, 255, 255, 0.5)
+    
+    
+}
